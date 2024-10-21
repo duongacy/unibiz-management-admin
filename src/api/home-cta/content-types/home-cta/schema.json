@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_ctas",
+  "info": {
+    "singularName": "home-cta",
+    "pluralName": "home-ctas",
+    "displayName": "HomeCTA"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "CTAButtonText": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

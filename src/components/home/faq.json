@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

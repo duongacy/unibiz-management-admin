@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_heroes",
+  "info": {
+    "singularName": "home-hero",
+    "pluralName": "home-heroes",
+    "displayName": "HomeHero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "partnersLabel": {
+      "type": "text",
+      "required": true
+    },
+    "partnersLogo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

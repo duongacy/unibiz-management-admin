@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_secondary_features",
+  "info": {
+    "singularName": "home-secondary-feature",
+    "pluralName": "home-secondary-features",
+    "displayName": "HomeSecondaryFeature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.secondary-feature",
+      "required": true
+    }
+  }
+}

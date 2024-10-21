@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_home_pricings",
+  "info": {
+    "displayName": "Pricing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "price"
+    },
+    "features": {
+      "type": "json",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
