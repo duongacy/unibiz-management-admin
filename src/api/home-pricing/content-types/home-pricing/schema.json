@@ -4,17 +4,14 @@
   "info": {
     "singularName": "home-pricing",
     "pluralName": "home-pricings",
-    "displayName": "HomePricing"
+    "displayName": "HomePricing",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
     "description": {
       "type": "text",
       "required": true
@@ -23,6 +20,10 @@
       "type": "component",
       "repeatable": true,
       "component": "home.pricing",
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
       "required": true
     }
   }

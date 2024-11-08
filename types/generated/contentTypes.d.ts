@@ -737,15 +737,16 @@ export interface ApiHomePricingHomePricing extends Struct.SingleTypeSchema {
     singularName: 'home-pricing';
     pluralName: 'home-pricings';
     displayName: 'HomePricing';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    title: Schema.Attribute.String & Schema.Attribute.Required;
     description: Schema.Attribute.Text & Schema.Attribute.Required;
     prices: Schema.Attribute.Component<'home.pricing', true> &
       Schema.Attribute.Required;
+    title: Schema.Attribute.RichText & Schema.Attribute.Required;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
